@@ -39,7 +39,7 @@
 |user_id-|integer|null: false, foreign_key: true|
 
 - belongs_to :group
-- has_many :user 
+- has_many :user, through: :user_id
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
