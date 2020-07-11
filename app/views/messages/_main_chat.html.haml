@@ -1,1 +1,30 @@
-＜チャット画面＞
+.chat-main
+  .chat-main__group-info
+    .chat-main__group-info__group-name
+      test
+      .chat-main__group-info__group-name__menber-name
+        Menber: name
+    .chat-main__group-info__edit
+      = link_to "#", class: "edit__btn" do
+        edit
+  .chat-main__message-list
+    .chat-main__message-list__user-name
+      name
+      .chat-main__message-list__user-name__posted-time
+        2020/7/10(Fri)11:11:11
+    .chat-main__message-list__comments
+      おはよう！
+    .chat-main__message-list__user-name
+      name
+      .chat-main__message-list__user-name__posted-time
+        2020/7/10(Fri)11:11:11
+    .chat-main__message-list__comments
+      あ
+  .chat-main__massage-form
+    %form.new_message
+      .input-box
+        %input{type: "text", class: "input-box__text", placeholder: "type a message"}
+        %label{class: "input-box__image"}
+          =icon('fas', 'image')
+          %input{type: "file", class: "input-box__image__file"}
+      %input{type: "submit", class: "submit-btn", value: "Send"}
