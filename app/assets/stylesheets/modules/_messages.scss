@@ -28,6 +28,12 @@
         width: 60px;
         text-align: right;
         margin-left: 5px;
+
+        &__body {
+          cursor: pointer;
+          text-decoration: none;
+          color: #ffffff;
+        }
       }
     }
   }
@@ -139,7 +145,7 @@
           right: 10px;
           cursor: pointer;
           font-size: 1.3rem;
-          
+
           &__file {
             display: none;
           }
