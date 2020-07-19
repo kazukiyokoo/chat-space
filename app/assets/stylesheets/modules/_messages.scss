@@ -29,13 +29,14 @@
         text-align: right;
         margin-left: 5px;
 
-        .icon__body {
-          cursor: pointer;
-          text-decoration: none;
-          color: #ffffff;
-        }
       }
     }
+  }
+
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
   }
 
   &__group_list {
@@ -45,8 +46,8 @@
     font-size: 11px;
     color: #ffffff;
     font-weight: bold;
-
-    &__group-name {
+ 
+    .Group__name {
       font-size: 15px;
       margin-bottom: 5px;
     }
