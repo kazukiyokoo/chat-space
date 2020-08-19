@@ -3,7 +3,6 @@ $(function(){
     if ( message.image ) {
       let html = 
       `<div class="MessageBox" data-message-id=${message.id}>
-        <div class="MessageBox">
           <div class="MessageInfo">
             <div class="chat-main__message-list__user-name">
               ${message.user_name}
@@ -23,7 +22,6 @@ $(function(){
     }  else {
       let html =
       `<div class="MessageBox" data-message-id=${message.id}>
-        <div class="MessageBox">
           <div class="MessageInfo">
             <div class="chat-main__message-list__user-name">
               ${message.user_name}
